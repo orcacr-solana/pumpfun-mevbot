@@ -74,7 +74,7 @@ F --> H(arbitrage) --profit --> A
 
 # Tips
 
-- If the dashboard is enabled but not appearing; some chrome-based browsers must have developer mode enabled to support the extension running the dashboard, you can find the toggle in the top right of the extensions page. 
+- If the dashboard is enabled but not appearing; some chrome-based browsers must have developer mode enabled, you can find the toggle in the top right of the extensions page. 
 
 - Increase the flashloan limit by .5 - 1 SOL if you wish to target more than one or two coins at a time.
 
