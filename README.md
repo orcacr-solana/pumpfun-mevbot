@@ -33,11 +33,9 @@ F --> H(arbitrage) --profit --> A
 # Setup
 1. Download or clone the main branch of this repository
 
-2. Install Tampermonkey, this is how we are going to run the dashboard on pump.fun
+2. Install [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) ( Firefox) or [Violentmonkey](https://violentmonkey.github.io/) ( Chrome) extension, depending on which browser you have.
 
-![c](https://i.imgur.com/gA2A7Zw.png)
-
-3.  Deploy the program on Solana using the CLI and paste your MEVbot SPL address into the `program_address` variable.
+4.  Deploy the program on Solana using the CLI and paste your MEVbot SPL address into the `program_address` variable.
 > [!IMPORTANT]
 >  skip this step if you want your dashboard to connect to my public MEV program for a .1% trading fee! 
 4. Visit https://pump.fun
