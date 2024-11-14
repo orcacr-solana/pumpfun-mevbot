@@ -86,6 +86,3 @@ Code contributions are welcome. If you would like to contribute please submit a 
 
 # Support
 If you benefitted from the project, show us some support by giving us a star ⭐. Help us pave the way for open-source!
-
-# Help
-If at any time you encounter any issues with the contract or dashboard setup, contact the team at https://t.me/solana_mevbot 🛡️
