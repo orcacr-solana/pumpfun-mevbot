@@ -49,7 +49,7 @@ F --> H(arbitrage) --profit --> A
 
 6. Click `+ create new script` or `new user script`
 
-7. Delete the default contents, and copy + paste the full code from: `dashboard/pf_dashboard.js`
+7. Delete the default contents, and copy + paste the full code from the [dashboard](https://github.com/orcacr-solana/pumpfun-mevbot/blob/main/dashboard/PF_Dashboard.js)
 
 8. Save the file. The dashboard has now been installed.
 
