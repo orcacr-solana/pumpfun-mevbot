@@ -40,11 +40,11 @@ F --> H(arbitrage) --profit --> A
 >  skip this step if you want your dashboard to connect to my public MEV program for a .1% trading fee! 
 4. Visit https://pump.fun
 
-5. Open the Tampermonkey extension
+5. Open the Greasemonkey or Violentmonkey extension
 
 ![b](https://i.imgur.com/MjuX6v3.png)
 
-6. Click `+ create new script`
+6. Click `+ create new script`, the menu should have these similar options.
 
 ![yy](https://i.postimg.cc/kMSpQ0x1/Screenshot-from-2024-09-17-01-38-19.png)
 
@@ -73,10 +73,9 @@ F --> H(arbitrage) --profit --> A
 
 # Tips
 
-- If the dashboard is enabled but not appearing; some chrome-based browsers must have developer mode enabled to support the TamperMonkey extension, you can find the toggle in the top right of the extensions page. 
+- If the dashboard is enabled but not appearing; some chrome-based browsers must have developer mode enabled to support the extension running the dashboard, you can find the toggle in the top right of the extensions page. 
 
 - Increase the flashloan limit by .5 - 1 SOL if you wish to target more than one or two coins at a time.
-
 
 # Contributions
 
